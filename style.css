@@ -1,0 +1,97 @@
+<style>
+        .body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #05f231;
+            text-justify: auto
+            ;
+        }
+        .wrap {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #9d083f92;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-style: dotted;
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-left: 400px;
+            backface-visibility: visible;
+            background-image: url(../);
+            height: 350px;
+            
+        }
+        .profile-img :hover {
+            background-image: url(../ui\ ux\ project/.image);
+        }
+        .second-image {
+            max-width: 300px;
+            margin-left: none;
+            height: 200px;
+            background-image: url(img/youtube.png);
+            background-size: 50%;
+
+
+        }
+ .btn {
+fron
+    }
+
+
+        h1 {
+            text-align: center;
+            color: chocolate;
+            border-radius: 0%;
+            box-shadow: #3805f2;
+            font-stretch: expanded;
+            text-decoration: overline;
+            text-emphasis: bold;
+            text-rendering: geometricPrecision;
+            
+       
+        }
+        h2 {
+            text-align: center;
+            color: #230525;
+        }
+        h3 {
+            text-align: center;
+            color: rgb(239, 8, 8);
+            box-sizing: content-box;
+
+        
+
+
+        }
+        .header-main {
+            width: 1000px;
+            height: 60px;
+            background-color: blue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+        .header-main .div-1 {
+            height: 30px;
+            background-color: #3805f2;
+        }
+        .header-main .div-2 {
+            height: 30px;
+            background-color: #f20538;
+        }
+        .header-main .div-3 {
+            height: 30px;
+            background-color: #b0ad0f;
+        }
+
+        .header-social {
+            width: 100%;
+            height: 60px;
+            background-color: #0f0f0f;
+        }
+

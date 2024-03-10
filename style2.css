@@ -1,0 +1,103 @@
+:root {
+    --site-color--01: rgb(64, 0, 255);
+    --site-color--01-hover: rgb(0, 255, 4);
+}
+
+h1 {
+    font-feature-settings: "abvf";
+    line-height: 32px
+    var(--site-color--01);
+    text-transform: uppercase;
+
+}
+
+
+body {
+    background-color: rgb(124, 97, 97);
+}
+
+a {
+   cursor: pointer; 
+}
+
+.header-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 254, 255);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 60px;
+}
+
+.header-main-logo img {
+    height: 30px;
+    align-self: center;
+}
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.header-main-nav ul {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    
+
+}
+
+.header-main-nav ul li a {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+
+
+
+}
+.header-main-sm {
+    width: 120px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-right: 60px;
+    display: flex;
+    justify-content: right;
+}
+
+.header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/facebook\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header-main-sm-fb {
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 60px;
+}
+
+.header-main-sm-in {
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 60px;
+
+}

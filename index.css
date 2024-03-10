@@ -1,0 +1,10 @@
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgb(56, 115, 115);
+    margin-top: 60px;
+    background-image: url(..
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
